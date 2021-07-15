@@ -1,0 +1,38 @@
+@media (max-width: 768px){
+	 nav .menu{
+	 	display: none;
+	 }
+	 .mobile-menu i{
+	 	display: block;
+	 	margin-top: 16px;
+	 }
+}
+@media (max-width: 1200px){
+	nav	.menu ul li a{
+		padding:10px 15px;
+		font-size: 18px;
+
+	}
+}
+@media (max-width:992px){
+	nav	.menu ul li a{
+		font-size: 14px;
+		padding:10px 10px;
+	}
+	nav	.menu{
+		margin-top: -5px; 
+	}
+	nav	.logo{
+		width: 39%;
+	}
+	nav	.logo a img{
+		width: 60%;
+		display: inline-block;
+		margin-top: 10px;
+	}
+	.btn-common{
+		padding:4px 15px; 
+		font-size: 12px;
+		 
+	}
+}
